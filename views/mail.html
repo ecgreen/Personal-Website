@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+  <title>Ethan Green</title>
+</head>
+
+<body>
+
+<div class="headerContainer">
+<h1> Ethan Green </h1>
+
+<button class="githubButton" ONCLICK="window.location.href='http://github.com/ecgreen'" target="_blank"> GitHub </button>
+</div>
+
+<div class="container">
+<div class="spacer"> </div>
+ 
+  <div class="topContentContainer">
+  
+  	<div class="topContentLeft">
+	
+	<div id="top-left-carousel" class="carousel slide">
+  		
+  		<div class="carousel-inner">
+   			<div class="item active">
+     			<img src="http://placehold.it/1200x480" alt="" />
+      			<div class="carousel-caption">
+       				<p>Caption text here</p>
+     			 </div>
+    		</div>
+    		<div class="item">
+      			<img src="http://placehold.it/1200x480" alt="" />
+      			<div class="carousel-caption">
+        			<p>Caption text here</p>
+      			</div>
+    		</div>
+   				 <div class="item">
+      				<img src="http://placehold.it/1200x480" alt="" />
+      			<div class="carousel-caption">
+        			<p>Caption text here</p>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+  </div>
+    
+    
+    <div class="topContentRight">
+    <h2> About Me </h2>
+    <p>
+    Stuff about me. Here is a lot of random filler text... eventually I should actually
+    write this section, but I probably won't until later. Oh well. Blah blah blah Blah blah blah
+    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah.
+    </p> <br><br>
+    <button class="blogspot" ONCLICK="window.location.href='https://ethancgreen.blogspot.com'" target="_blank"> Development Blog </button>
+    </div>
+    
+  </div>
+  
+  <div class="contentButtons" id="contentButtons"> 
+  		<button class="educationSelected" id="education" > School </button>
+  		<button class="mobile" id="mobile" > Mobile </button>
+  		<button class="leap" id="leap" > Leap </button>
+  		<button class="design" id="design" > Design </button>
+  		<button class="games" id="games" > Games </button>
+  		<button class="glass" id="glass" > Glass </button>
+  </div>
+  
+  <span id="bottomHalfSpan">
+  <div class="bottomContent">
+  	<div class="bottomHeader"> <h1 class="bottom" id="header">Education Program</h1> </div>
+  	<div class="bottomContentContainer">
+  		<div class="bottomContentLeft" id="bottomImage"> <img src="../images/washUpic.png" alt="WashU"/> </div>
+  		<div class="bottomContentRight" id="bottomText"> </div>
+  	</div>
+  
+  </div>
+  </span>
+
+</div> <!-- Ends the content div -->
+
+<div class="footer"> </div>
+
+
+</body>
+
+
+<!-- JavaScript plugins -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../javascript/buttonControl.js"></script>
+
+<script>
+$('.carousel').carousel({
+  interval: 5000
+})
+</script>
+
+
+</html>
