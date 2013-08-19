@@ -1,5 +1,5 @@
 html {
-  height: 1100px;
+  height: 1200px;
 }
 
 body{
@@ -23,7 +23,7 @@ div.headerContainer{
   width: 100%;
   height: 90px;
   position:fixed;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, .7);
   z-index: 50;
   min-width: 1000px;
 }
@@ -35,14 +35,15 @@ div.spacer{
 
 div.footer{
   width: 100%;
-  height: 180px;
-  background-color: black;
-  opacity:0.5;
+  height: 100px;
+  background: rgba(255, 255, 255, 1);
+  min-width: 1000px;
 }
 
 div.topContentContainer{
   width:100%;
   height: 360px;
+  margin-bottom: 30px;
 }
 
 div.topContentLeft{
@@ -69,14 +70,62 @@ div.bottomContent{
 }
 
 
-p{
+p.top{
 font-size: large;
 color: white;
-text-shadow: black 0.1em 0.1em 0.2em;
+text-shadow: black 0.1em 0.1em 0.1em;
 width:95%;
 margin: 0px;
 padding: 0px;
 text-align: left;
+}
+
+p.bottomText{
+font-size: 22px;
+color: white;
+text-shadow: black 0.1em 0.1em 0.1em;
+width:95%;
+margin-left: 15px;
+padding: 0px;
+line-height: 130%;
+text-align: left;
+}
+
+p.footerMidText{
+font-size: 22px;
+color: black;
+width:25%;
+margin-left: 14.5%;
+padding: 0px;
+line-height: 110%;
+text-align: left;
+float: left;
+margin-top: 40px;
+font-weight:bold;
+}
+
+p.footerRightText{
+font-size: 22px;
+color: black;
+width:20%;
+margin-left: 7.5%;
+padding: 0px;
+line-height: 110%;
+text-align: left;
+float: left;
+margin-top: 40px;
+font-weight:bold;
+}
+
+p.footerHeader{
+width:20%;
+margin: 0px;
+margin-left:3%;
+margin-top: 40px;
+float: left;
+color: black;
+font-size:30px;
+font-weight:bold;
 }
 
 h1{
@@ -84,40 +133,52 @@ width:38%;
 margin: 0px;
 margin-left:3%;
 margin-top: .6%;
-font-size: xx-large;
-display: inline-block;
+float: left;
 color: white;
-text-shadow: black 0.1em 0.1em 0.2em;
+text-shadow: black 0.1em 0.1em 0.1em;
+font-size:30px;
 }
 
 h2{
 width:50%;
 margin: 0px;
-font-size: x-large;
 color: white;
-text-shadow: black 0.1em 0.1em 0.2em;
+text-shadow: black 0.1em 0.1em 0.1em;
 display: inline-block;
 margin: 0px;
 padding: 0px;
+font-size:30px;
+}
+
+h3{
+width:95%;
+margin: 0px;
+color: white;
+text-shadow: black 0.1em 0.1em 0.1em;
+display: inline-block;
+margin: 0px;
+padding: 0px;
+font-size:25px;
 }
 
 img{
-width: 99.5%;
+width: 99.7%;
 max-width: 800px;
-border: 2px solid #000000;
+height: 340px;
+border: 1px solid #000000;
 }
 
 .carousel slide{
-width:95%;
+width:99%;
 height:95%;
 max-width: 800px;
 }
 
 .githubButton {
-	background-color:#8fe643;
+	background-color:#67B325;
 	border-radius:6px;
-	border:1px solid #8fe643;
-	color:#306108;
+	border:1px solid #67B325;
+	color:#F0F0F0;
 	font-family:arial;
 	font-size:25px;
 	font-weight:bold;
@@ -137,8 +198,8 @@ max-width: 800px;
 	transition: All 0.5s ease;
 }
 .githubButton:hover {
-	background-color:#61b81a;
-	border:1px solid #61b81a;
+	background-color:#438708;
+	border:1px solid #438708;
 }
 
 button.games{
@@ -157,6 +218,9 @@ button.games{
 	height: 100px;
 	padding: 0px;
 	text-align: center;
+		  border: black;
+  border-style: solid;
+  border-width: 1px;
 	
 	/*Transition*/
 	-webkit-transition: All 0.5s ease;
@@ -169,6 +233,9 @@ button.games:hover{
   background-color: #993399;
   color:#FFFFFF;
   border:1px solid #993399;
+  	  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 .gamesSelected{
 background-color:#993399;
@@ -181,6 +248,10 @@ background-color:#993399;
 	font-size:25px;
 	font-weight:bold;
 	text-decoration:none;
+	
+		  border: black;
+  border-style: solid;
+  border-width: 1px;
 	
 	width: 100px;
 	height: 100px;
@@ -206,6 +277,9 @@ button.design{
 	padding: 0px;
 	text-align: center;
 	margin-right: 80px;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
 	
 	/*Transition*/
 	-webkit-transition: All 0.5s ease;
@@ -218,6 +292,9 @@ button.design:hover{
   background-color: #CC3333;
   color:#FFFFFF;
   border:1px solid #CC3333;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 button.designSelected{
 	background-color: #CC3333;
@@ -236,6 +313,9 @@ button.designSelected{
 	padding: 0px;
 	text-align: center;
 	margin-right: 80px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
 button.education{
@@ -256,6 +336,10 @@ button.education{
 	text-align: center;
 	margin-right: 80px;
 	
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	
 	/*Transition*/
 	-webkit-transition: All 0.5s ease;
 	-moz-transition: All 0.5s ease;
@@ -267,6 +351,9 @@ button.education:hover {
   background-color: #CC9933;
   color:#FFFFFF;
   border:1px solid #CC9933;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 button.educationSelected{
 background-color:#CC9933;
@@ -285,6 +372,9 @@ background-color:#CC9933;
 	padding: 0px;
 	text-align: center;
 	margin-right: 80px;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
 button.mobile{
@@ -305,7 +395,10 @@ button.mobile{
 	text-align: center;
 	margin-right: 80px;
 	
-	/*Transition*/
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+	
 	-webkit-transition: All 0.5s ease;
 	-moz-transition: All 0.5s ease;
 	-o-transition: All 0.5s ease;
@@ -316,6 +409,9 @@ button.mobile:hover{
   background-color: #0066CC;
   color:#FFFFFF;
   border:1px solid #0066CC;
+    border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 button.mobileSelected{
 	background-color:#0066CC;
@@ -334,6 +430,9 @@ button.mobileSelected{
 	padding: 0px;
 	text-align: center;
 	margin-right: 80px;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
 
@@ -354,6 +453,9 @@ button.leap{
 	padding: 0px;
 	text-align: center;
 	margin-right: 80px;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 	
 	/*Transition*/
 	-webkit-transition: All 0.5s ease;
@@ -366,6 +468,9 @@ button.leap:hover{
   background-color: #55a217;
   color:#FFFFFF;
   border:1px solid #55a217;
+    border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 button.leapSelected{
 	background-color: #55a217;
@@ -378,6 +483,9 @@ button.leapSelected{
 	font-size:25px;
 	font-weight:bold;
 	text-decoration:none;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 	
 	width: 100px;
 	height: 100px;
@@ -397,6 +505,9 @@ button.glass{
 	font-size:25px;
 	font-weight:bold;
 	text-decoration:none;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 	
 	width: 100px;
 	height: 100px;
@@ -413,6 +524,9 @@ button.glass:hover{
   background-color: #66CC66;
   color:#FFFFFF;
   border:1px solid #66CC66;
+    border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 button.glassSelected{
 	background-color:#66CC66;
@@ -431,28 +545,33 @@ button.glassSelected{
 	padding: 0px;
 	text-align: center;
 	float: right;
+	  border: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
 
 .blogspot {
-	background-color:#CC9933;
-	border: 1px solid #CC9933;
-	border-radius:25px;
+	background-color:#1DB8A8;
+	border: 1px solid #000000;
+	border-radius:30px;
 	color:#ffffff;
 	font-size:20px;
 	font-weight:bold;
 	padding:10px 25px;
 	text-decoration:none;
-	text-shadow:0px 0px 0px #cc9f52;
+	width: 250px;
 	-webkit-transition: All 0.5s ease;
 	-moz-transition: All 0.5s ease;
 	-o-transition: All 0.5s ease;
 	-ms-transition: All 0.5s ease;
 	transition: All 0.5s ease;
+	margin-right: 35px;
 }
 .blogspot:hover {
-	background-color:#D67D0F;
-	border: 1px solid #D67D0F;
+	background-color:#1DB8A8;
+	border: 1px solid #000000;
+	width: 320px;
 }
 
 
@@ -473,7 +592,6 @@ div.bottomContentRight{
 	width: 65%;
 	height: 100%;
 	float: right;
-	background-color: black;
 }
 
 div.bottomContentContainer{
@@ -490,9 +608,9 @@ color: white;
 text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-div img{
-	height: 100%;
-	border: 0px;
-	margin: 0px;
+img.bottom{
+	height: 400px;
+	width: 300px;
+	border: 2px solid #000000;
 }
 
