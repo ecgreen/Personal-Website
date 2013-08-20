@@ -12,7 +12,7 @@
 <div class="headerContainer">
 <h1> Ethan Green </h1>
 
-<button class="githubButton" ONCLICK="window.location.href='http://github.com/ecgreen'" target="_blank"> GitHub </button>
+<button class="githubButton" ONCLICK=window.open("http://github.com/ecgreen")> GitHub </button>
 </div>
 
 <div class="container">
@@ -23,7 +23,6 @@
   	<div class="topContentLeft">
 	
 	<div id="top-left-carousel" class="carousel slide">
-  		
   		<div class="carousel-inner">
     		<div class="item active">
       			<img src="../images/leap.jpg" alt="" />
@@ -51,7 +50,6 @@
        				<p>Worked as Jr. Mobile Developer at Coolfire Solutions developing Surveyor Lite </p>
      			 </div>
     		</div>
-    		
   		</div>
 	</div>
   </div>
@@ -66,7 +64,7 @@
     using Google Glass. I am interested in projects where the problem presents a challenge 
     that requires an innovative solution using bleeding edge technology.
     </p> <br><br>
-    <button class="blogspot" ONCLICK="window.location.href='https://ethancgreen.blogspot.com'" target="_blank"> Development Blog </button>
+    <button class="blogspot" ONCLICK=window.open("https://ethancgreen.blogspot.com")> Development Blog </button>
     </div>
     
   </div>
@@ -96,17 +94,10 @@
 
 </body>
 
-
-<!-- JavaScript plugins -->
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
-<script src="../javascript/buttonControl.js"></script>
-
-<script>
-$('.carousel').carousel({
-  interval: 5000
-})
-</script>
+  <script src="../javascript/jquery-2.0.3.js"> </script>
+  <script src="../bootstrap/js/bootstrap.min.js"> </script>
+  <script src="../javascript/buttonControl.js"> </script>
+  <script>$('.carousel').carousel({interval: 5000})</script>
 
 
 </html>

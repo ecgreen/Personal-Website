@@ -23,7 +23,7 @@ div.headerContainer{
   width: 100%;
   height: 90px;
   position:fixed;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, .88);
   z-index: 50;
   min-width: 1000px;
 }
@@ -36,7 +36,7 @@ div.spacer{
 div.footer{
   width: 100%;
   height: 100px;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(110, 153, 255, 0.06);
   min-width: 1000px;
 }
 
@@ -93,7 +93,8 @@ text-align: left;
 
 p.footerMidText{
 font-size: 22px;
-color: black;
+color: white;
+text-shadow: black 0.1em 0.1em 0.1em;
 width:25%;
 margin-left: 14.5%;
 padding: 0px;
@@ -106,7 +107,8 @@ font-weight:bold;
 
 p.footerRightText{
 font-size: 22px;
-color: black;
+color: white;
+text-shadow: black 0.1em 0.1em 0.1em;
 width:20%;
 margin-left: 7.5%;
 padding: 0px;
@@ -123,7 +125,8 @@ margin: 0px;
 margin-left:3%;
 margin-top: 40px;
 float: left;
-color: black;
+color: white;
+text-shadow: black 0.1em 0.1em 0.1em;
 font-size:30px;
 font-weight:bold;
 }
